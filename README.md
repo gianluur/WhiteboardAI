@@ -34,21 +34,32 @@
 TODO: ADD VIDEO HERE
 
 
-## 🚀 Getting Started
+# 🚀 Getting Started
+Here you can the folder with the executable:
+https://www.mediafire.com/file/dfemmpotof7u3k2/build.rar/file
 
 ### Prerequisites
 
-Ensure you have Python 3.7 or higher installed on your system.
+Ensure you have Python 3.10 with pip 20.3+ installed on your system.
 
 ### Installation
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your_username/hand_drawing_app.git
-   cd hand_drawing_app
+   git clone https://github.com/gianluur/WhiteboardAI.git
+   cd WhiteboardAI
 
 2. **Install the dependencies**
     ```bash
+   pip install -r requirements.txt
+
+3. **Create the executable**
+   ```bash
+   python src/setup.py build
+
+4. **Run the executable**
+
+    Go inside the build folder, you will found another folder, with a weird name, just go inside and double click the executable 
 
 # 📜 License
 This project is licensed under the MIT License.
