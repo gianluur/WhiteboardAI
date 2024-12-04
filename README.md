@@ -61,6 +61,13 @@ Ensure you have Python 3.10 with pip 20.3+ installed on your system.
 
     Go inside the build folder, you will found another folder, with a weird name, just go inside and double click the executable 
 
+**Extra Step**
+if you are having an issue where there's an import error about a dll that couldn't be loaded go to
+
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+and install this libraries, and the issue should be solved.
+
 # 📜 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute this software as per the license terms.
